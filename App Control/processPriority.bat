@@ -1,5 +1,4 @@
 @echo off
-color a
 title Set priority
 
 wmic process where name="firefox.exe" CALL setpriority "above normal"

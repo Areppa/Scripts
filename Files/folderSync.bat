@@ -1,5 +1,4 @@
 @echo off
-color a
 title Folder Sync
 
 echo This script will sync folder and all of its files to new location
