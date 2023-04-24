@@ -7,6 +7,9 @@ echo.
 set /p source=Source location: 
 set /p destination=Destination location: 
 echo.
+echo Synchronizing from %source% to %destination%
+echo Press any key to continue
+pause>nul
 
 Robocopy "%source%" "%destination%" /MIR /FFT /Z /XA:H /W:5
 
