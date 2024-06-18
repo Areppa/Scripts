@@ -17,11 +17,11 @@ taskkill /f /im Discord.exe
 echo.
 
 echo Installing Vencord
-VencordInstallerCli.exe -install -branch auto
+VencordInstallerCli.exe -install -branch stable
 echo.
 
 echo Installing OpenAsar
-VencordInstallerCli.exe -install-openasar -branch auto
+VencordInstallerCli.exe -install-openasar -branch stable
 echo.
 
 echo Deleting Vencord CLI installer...
