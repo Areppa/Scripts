@@ -3,6 +3,7 @@ setlocal
 cd /d %~dp0
 title Updating Vencord...
 
+REM THIS SCRIPT WILL RUN RUN THIS SCRIPT AUTOMATICALLY!!! PLEASE MAKE SURE THAT YOU CAN TRUST THE SOURCE OF VencordInstaller SCRIPT BEFORE RUNNING THIS SCRIPT!!!
 REM This script will download the latest Vencord CLI installer and install Vencord and OpenAsar.
 
 set VENCORD_INSTALLER_URL=https://github.com/Vencord/Installer/releases/latest/download/VencordInstallerCli.exe
