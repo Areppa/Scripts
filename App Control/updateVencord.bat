@@ -30,5 +30,3 @@ del /F /Q VencordInstallerCli.exe
 echo Starting Discord...
 cd /d "%LOCALAPPDATA%\discord"
 start Update.exe --processStart Discord.exe
-
-pause>nul
