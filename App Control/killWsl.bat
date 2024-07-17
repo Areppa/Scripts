@@ -6,6 +6,5 @@ wsl --shutdown
 echo Current states:
 echo.
 wsl --list --verbose
-echo.
 
-pause
+timeout 5
