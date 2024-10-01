@@ -10,5 +10,3 @@ start /min "" "%VBOX_PATH%\VBoxManage.exe" startvm "%VM_NAME%" --type headless
 echo.
 echo Starting WSL
 wsl start
-
-timeout 5
